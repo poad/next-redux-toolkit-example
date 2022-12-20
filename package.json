@@ -26,9 +26,11 @@
     "@mui/icons-material": "*",
     "@mui/material": "*",
     "@next/font": "^13",
+    "@reduxjs/toolkit": "*",
     "next": "^13",
     "react": "*",
     "react-dom": "*",
+    "react-redux": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
