@@ -800,9 +800,9 @@ __metadata:
   linkType: hard
 
 "@mui/core-downloads-tracker@npm:^5.11.0":
-  version: 5.11.0
-  resolution: "@mui/core-downloads-tracker@npm:5.11.0"
-  checksum: 3b26cdd534f088030434c13a4895705d4f2da7155561769b0eedb11579cd6662e221d718dcfc8f1a6223f855232e9545f25b673fc71dd5d4142fa0607ef483d7
+  version: 5.11.1
+  resolution: "@mui/core-downloads-tracker@npm:5.11.1"
+  checksum: 6faae7ffec3d85b7368df3695cad57aae12b81ffc178f53b667ffa64f0cc672e3a01f5302985352033a8896c2687ec349ac8f69e469576f002fb7ef2509f887f
   languageName: node
   linkType: hard
 
