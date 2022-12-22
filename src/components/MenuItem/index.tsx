@@ -7,21 +7,26 @@ const drawerWidth = 240;
 
 interface MenuItemProps {
   container?: Element;
-  key: string;
+  keyName: string;
   text: string;
   href: string;
   icon: ReactNode;
   external?: boolean;
 }
 
-const MenuItem = ({ key, text, href, icon, external }: MenuItemProps) => {
+const MenuItem = ({ keyName, text, href, icon, external }: MenuItemProps) => {
   const theme = useTheme();
 
   if (external) {
     return (
-      <Link key={key} href={href} target="_blank" rel="noreferrer">
+      <Link
+        key={`link-${keyName}`}
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+      >
         <ListItemButton
-          key={`${key}-${text}`}
+          key={`${keyName}-${text}`}
           sx={{
             width: drawerWidth,
             backgroundColor: theme.palette.primary.main,
@@ -38,9 +43,9 @@ const MenuItem = ({ key, text, href, icon, external }: MenuItemProps) => {
     );
   }
   return (
-    <Link key={key} legacyBehavior href={href} passHref>
+    <Link key={`link-${keyName}`} legacyBehavior href={href} passHref>
       <ListItemButton
-        key={`${key}-${text}`}
+        key={`${keyName}-${text}`}
         sx={{
           width: drawerWidth,
           backgroundColor: theme.palette.primary.main,

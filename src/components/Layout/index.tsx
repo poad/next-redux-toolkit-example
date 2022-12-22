@@ -79,6 +79,7 @@ const Layout = (props: PropsWithChildren<LayoutProps>) => {
         ].map(({ key, href, text, icon, external }) => (
           <MenuItem
             key={key}
+            keyName={key}
             href={href}
             icon={icon}
             text={text}
