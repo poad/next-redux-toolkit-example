@@ -150,7 +150,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-transforms@npm:^7.20.7":
+"@babel/helper-module-transforms@npm:^7.20.11, @babel/helper-module-transforms@npm:^7.20.7":
   version: 7.20.11
   resolution: "@babel/helper-module-transforms@npm:7.20.11"
   dependencies:
@@ -380,15 +380,15 @@ __metadata:
   linkType: hard
 
 "@babel/plugin-transform-modules-commonjs@npm:^7.13.8":
-  version: 7.20.7
-  resolution: "@babel/plugin-transform-modules-commonjs@npm:7.20.7"
+  version: 7.20.11
+  resolution: "@babel/plugin-transform-modules-commonjs@npm:7.20.11"
   dependencies:
-    "@babel/helper-module-transforms": ^7.20.7
+    "@babel/helper-module-transforms": ^7.20.11
     "@babel/helper-plugin-utils": ^7.20.2
     "@babel/helper-simple-access": ^7.20.2
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 874215007f9c733fd95e49dd81b173c0c585953f37df4ac6b9147c42268c56259ce1f002805e7e8464999fdcf8dd91e1e09d72f087538d2da2528cb3b1723654
+  checksum: ddd0623e2ad4b5c0faaa0ae30d3407a3fa484d911c968ed33cfb1b339ac3691321c959db60b66dc136dbd67770fff586f7e48a7ce0d7d357f92d6ef6fb7ed1a7
   languageName: node
   linkType: hard
 
