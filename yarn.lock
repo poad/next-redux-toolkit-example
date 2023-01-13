@@ -951,8 +951,8 @@ __metadata:
   linkType: hard
 
 "@next/codemod@npm:^13":
-  version: 13.1.1
-  resolution: "@next/codemod@npm:13.1.1"
+  version: 13.1.2
+  resolution: "@next/codemod@npm:13.1.2"
   dependencies:
     chalk: 4.1.0
     cheerio: 1.0.0-rc.9
@@ -964,7 +964,7 @@ __metadata:
     meow: 7.0.1
   bin:
     codemod: bin/next-codemod.js
-  checksum: 210c53deef70b77021b292f6a93e9df78ebe52670023588cc3d3d8b3e945aaf5fa49e512ecd0a971d4713bb0edb092a7b9487ba78319ae198af3db7624ff7a88
+  checksum: 3985e4fa3bff19815dcafb6a3821fd1c0c20212de1663691a9cba6811e06afc1d77d89233c43ac8d9bbba93d0a588a55ab6fe498ad890a58cdeef001174dada2
   languageName: node
   linkType: hard
 
