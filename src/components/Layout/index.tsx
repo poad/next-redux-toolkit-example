@@ -26,7 +26,7 @@ interface LayoutProps {
 
 const sawarabi = Sawarabi_Gothic({
   weight: '400',
-  subsets: ['japanese'],
+  subsets: ['latin-ext'],
   display: 'swap',
 });
 
