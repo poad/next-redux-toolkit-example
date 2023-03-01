@@ -9,14 +9,15 @@
     "export": "next export",
     "start": "next start",
     "analyze": "ANALYZE=true next build",
-    "elint-check": "next lint --ext .ts,.js,.tsx,.jsx src",
-    "elint-fix": "next lint --fix --ext .ts,.js,.tsx,.jsx src",
+    "elint-check": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "elint-fix": "eslint --fix --ext .ts,.js,.tsx,.jsx src",
     "prettier-check": "prettier --check src",
     "prettier-format": "prettier --write src",
     "lint": "yarn prettier-check && yarn elint-check",
     "lint-fix": "yarn prettier-format && yarn elint-fix",
     "clean": "rimraf build",
     "pretest": "yarn build",
+    "postinstall": "typewind generate",
     "all": "yarn lint && yarn build && yarn test && yarn export"
   },
   "dependencies": {
@@ -62,7 +63,8 @@
     "rimraf": "*",
     "swc-loader": "*",
     "tailwindcss": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "typewind": "*"
   },
   "resolutions": {
     "json5": ">=2.2.2"
