@@ -12,9 +12,6 @@ const config = {
     ignoreDuringBuilds: true,
   },
   productionBrowserSourceMaps: true,
-  experimental: {
-    swcPlugins: [['typewind/swc', {}]],
-  },
 };
 
 module.exports = withBundleAnalyzer({
