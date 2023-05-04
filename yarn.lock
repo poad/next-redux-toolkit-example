@@ -1450,13 +1450,13 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:*":
-  version: 18.2.4
-  resolution: "@types/react@npm:18.2.4"
+  version: 18.2.5
+  resolution: "@types/react@npm:18.2.5"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: d920fc93832fe50d5e8175a0ba233086c97a9e238ff7327c8319b8dec57409618f491d6f71be2374c3132f40a8fc428b3e406c1e2a5f1dc32ccd6d47051786d2
+  checksum: 97c4534e849edf991be0820b0911d036e794b8e2599a1544f500c769acbcb4f443ccde1a3f22298f22ce368ee7757f746e4a529e889567fc142a627698e2de39
   languageName: node
   linkType: hard
 
@@ -2918,9 +2918,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.284":
-  version: 1.4.380
-  resolution: "electron-to-chromium@npm:1.4.380"
-  checksum: 716c8f8247b9a0dbbc2e949a908a8301dfc2fa9a452ebea2e6239e4a7c33b2f7e66ea975af1346689c736bf091ef57fa732c64723f5540fa78aebdb98396d5c5
+  version: 1.4.382
+  resolution: "electron-to-chromium@npm:1.4.382"
+  checksum: 553a82840bf8b0f99d298b0ffd2273b04f4e37659126828f95107212f95f571facc750465e20e6df95c988c9950a0c80800d2efd0d3075e15f443e5ae22e5231
   languageName: node
   linkType: hard
 
@@ -7150,8 +7150,8 @@ __metadata:
   linkType: hard
 
 "rollup@npm:^3.2.5":
-  version: 3.21.3
-  resolution: "rollup@npm:3.21.3"
+  version: 3.21.4
+  resolution: "rollup@npm:3.21.4"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -7159,7 +7159,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 430c0c66f1480586ccea77b190524efb6a3af3da5308c7bc77eca3160c3f387c9a56ebb3eef5bfb24f683764bdfdd3dafdea175d215e4b875bbde752619bec12
+  checksum: ad7dec30ce31b47e32c3daf464b14c25e52f4e07b6ad9fa610b0abcff480b1a1fb01aabdefa6bac30ff1ee23ab16762621cd24810798148cdff74efda1a98874
   languageName: node
   linkType: hard
 
