@@ -615,9 +615,9 @@ __metadata:
   linkType: hard
 
 "@emotion/sheet@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@emotion/sheet@npm:1.2.1"
-  checksum: ce78763588ea522438156344d9f592203e2da582d8d67b32e1b0b98eaba26994c6c270f8c7ad46442fc9c0a9f048685d819cd73ca87e544520fd06f0e24a1562
+  version: 1.2.2
+  resolution: "@emotion/sheet@npm:1.2.2"
+  checksum: d973273c9c15f1c291ca2269728bf044bd3e92a67bca87943fa9ec6c3cd2b034f9a6bfe95ef1b5d983351d128c75b547b43ff196a00a3875f7e1d269793cecfe
   languageName: node
   linkType: hard
 
