@@ -49,8 +49,8 @@ devDependencies:
     specifier: ^13.4.6
     version: 13.4.6
   '@next/codemod':
-    specifier: ^13.4.6
-    version: 13.4.6(@babel/preset-env@7.22.5)
+    specifier: ^13.4.7
+    version: 13.4.7(@babel/preset-env@7.22.5)
   '@types/node':
     specifier: ^20.3.1
     version: 20.3.1
@@ -2098,8 +2098,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@next/codemod@13.4.6(@babel/preset-env@7.22.5):
-    resolution: {integrity: sha512-MhKsMKL2TDtXmRY7OoRFFuHvuipEaLETUmNt71tHmBopS9Dt+wChvvIL37kCjo44pfbaH5nfjZkf21UctEjbAw==}
+  /@next/codemod@13.4.7(@babel/preset-env@7.22.5):
+    resolution: {integrity: sha512-NVsRgwhHwB5OkuGKZejb0KSrTZ6sgQmHjTrShkLclNL8foUjtfn0/lwyO9i/K1BxqCTLDCMAADOFvjf2Cnnqpw==}
     hasBin: true
     dependencies:
       chalk: 4.1.0
@@ -4822,7 +4822,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       ansi-escapes: 4.3.2
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-width: 3.0.0
       external-editor: 3.1.0
