@@ -25,10 +25,10 @@
     "@emotion/react": "^11.11.1",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.13.6",
-    "@mui/system": "^5.13.6",
-    "@next/font": "^13.4.7",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/material": "^5.13.7",
+    "@mui/system": "^5.13.7",
+    "@next/font": "^13.4.8",
     "@reduxjs/toolkit": "^1.9.5",
     "next": "^13.4.8",
     "react": "^18.2.0",
@@ -37,7 +37,7 @@
     "web-vitals": "^3.3.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.7",
+    "@next/bundle-analyzer": "^13.4.8",
     "@next/codemod": "^13.4.8",
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
