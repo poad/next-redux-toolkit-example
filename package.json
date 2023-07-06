@@ -60,7 +60,7 @@
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^10.0.0",
     "postcss": "^8.4.24",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "rimraf": "^5.0.1",
     "swc-loader": "^0.2.3",
