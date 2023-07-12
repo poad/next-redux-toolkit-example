@@ -27,7 +27,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.13.7",
     "@mui/material": "^5.13.7",
-    "@mui/system": "^5.13.7",
+    "@mui/system": "^5.14.0",
     "@next/font": "^13.4.9",
     "@reduxjs/toolkit": "^1.9.5",
     "next": "^13.4.9",
