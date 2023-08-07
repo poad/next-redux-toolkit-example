@@ -37,7 +37,7 @@
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.12",
+    "@next/bundle-analyzer": "^13.4.13",
     "@next/codemod": "^13.4.12",
     "@types/node": "^20.4.7",
     "@types/react": "^18.2.18",
