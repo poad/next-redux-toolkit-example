@@ -61,7 +61,7 @@
     "next-transpile-modules": "^10.0.1",
     "postcss": "^8.4.27",
     "prettier": "^3.0.1",
-    "prettier-plugin-tailwindcss": "^0.4.1",
+    "prettier-plugin-tailwindcss": "^0.5.1",
     "rimraf": "^5.0.1",
     "swc-loader": "^0.2.3",
     "tailwindcss": "^3.3.3",
