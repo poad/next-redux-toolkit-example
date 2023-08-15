@@ -27,8 +27,8 @@ dependencies:
     specifier: ^5.14.4
     version: 5.14.4(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.20)(react@18.2.0)
   '@next/font':
-    specifier: ^13.4.13
-    version: 13.4.13
+    specifier: ^13.4.16
+    version: 13.4.16
   '@reduxjs/toolkit':
     specifier: ^1.9.5
     version: 1.9.5(react-redux@8.1.2)(react@18.2.0)
@@ -2073,8 +2073,8 @@ packages:
       glob: 7.1.7
     dev: true
 
-  /@next/font@13.4.13:
-    resolution: {integrity: sha512-jzjUvjO967E2XWku5aImWRVApGwsTJZPp3lY5yFNWZHMkoNNKU9fsTEAhWVcKxCOYmHmSX1n2E09VkzuFdF48Q==}
+  /@next/font@13.4.16:
+    resolution: {integrity: sha512-1UciFHgwieMfDygileymqeYPEmIeZWIfgrsa2POZlRW+yAsDt0qy0InfFAYvXhNgALTI6ix3JU2XhcuzonhQLA==}
     dev: false
 
   /@next/swc-darwin-arm64@13.4.13:
