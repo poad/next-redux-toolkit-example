@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react';
-import { Sawarabi_Gothic } from '@next/font/google';
+import { Sawarabi_Gothic } from 'next/font/google';
 import {
   AppBar,
   Box,
