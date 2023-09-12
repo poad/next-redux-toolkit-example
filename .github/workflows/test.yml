@@ -20,15 +20,15 @@ jobs:
       name: Install pnpm
       id: pnpm-install
       with:
-        version: 8.6.10
+        version: latest
         run_install: |
           - recursive: true
             args: [--no-frozen-lockfile]
 
-    - name: Use Node.js 18.x
+    - name: Use Node.js 20.x
       uses: actions/setup-node@v3.8.1
       with:
-        node-version: 18.x
+        node-version: 20.x
         check-latest: true
 
     - run: pnpm all
@@ -44,7 +44,7 @@ jobs:
       uses: poad/github-pull-request-auto-merge-enable-action@v1.0.5
       with:
         pull_request_number: ${{ github.event.pull_request.number }}
-        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: ${{ github.event.repository.name }}
         owner: ${{ github.repository_owner }}
         merge_method: SQUASH
