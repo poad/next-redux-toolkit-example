@@ -9,6 +9,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      actions:
+        patterns:
+          - '*'
 
   - package-ecosystem: npm
     directory: '/'
@@ -21,54 +25,6 @@ updates:
     assignees:
       - poad
     groups:
-      nextjs:
-        patterns:
-          - 'next'
-          - '@next/*'
-          - 'eslint-config-next'
-          - 'web-vitals'
-      eslint-prettier:
-        patterns:
-          - '@typescript-eslint/*'
-          - 'eslint'
-          - 'eslint-*'
-          - 'prettier'
-        exclude-patterns:
-          - 'eslint-config-next'
-          - 'prettier-plugin-tailwindcss'
-      mui-emotion:
-        patterns:
-          - '@emotion/*'
-          - '@mui/*'
-      react:
-        patterns:
-          - '@types/react*'
-          - 'react'
-          - 'react-dom'
-      tailwindcss:
-        patterns:
-          - 'autoprefixer'
-          - 'postcss'
-          - 'tailwindcss'
-          - 'typewind'
-          - 'prettier-plugin-tailwindcss'
-      redux:
-        patterns:
-          - 'react-redux'
-          - '@reduxjs/toolkit'
-      misc:
+      npm:
         patterns:
           - '*'
-        exclude-patterns:
-          - 'next'
-          - '@next/*'
-          - '@typescript-eslint/*'
-          - 'eslint'
-          - 'eslint-*'
-          - 'prettier'
-          - '@supabase/*'
-          - '@types/react*'
-          - 'react*'
-          - 'autoprefixer'
-          - 'postcss'
-          - 'tailwindcss'

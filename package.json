@@ -6,7 +6,6 @@
     "test": "echo ''",
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
     "analyze": "ANALYZE=true next build",
     "elint-check": "eslint --ext .ts,.js,.tsx,.jsx src",
@@ -18,7 +17,7 @@
     "clean": "rimraf build",
     "pretest": "pnpm build",
     "postinstall": "typewind generate",
-    "all": "pnpm lint && pnpm build && pnpm test && pnpm export"
+    "all": "pnpm lint && pnpm build && pnpm test"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",
