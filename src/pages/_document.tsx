@@ -22,7 +22,7 @@ export default class NextDocument extends Document {
         <Head>
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
-          {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+          {}
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
@@ -45,7 +45,6 @@ NextDocument.getInitialProps = async (ctx: DocumentContext) => {
 
   ctx.renderPage = () =>
     originalRenderPage({
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       enhanceApp: (App: any) => (props) => (
         <App emotionCache={cache} {...props} />
       ),
@@ -56,12 +55,10 @@ NextDocument.getInitialProps = async (ctx: DocumentContext) => {
   // See https://github.com/mui-org/material-ui/issues/26561#issuecomment-855286153
   const emotionStyles = extractCriticalToChunks(initialProps.html);
   const emotionStyleTags = emotionStyles.styles.map(
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (style: { key: React.Key | null | undefined; ids: any[]; css: any }) => (
       <style
         data-emotion={`${style.key} ${style.ids.join(' ')}`}
         key={style.key}
-        // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: style.css }}
       />
     ),

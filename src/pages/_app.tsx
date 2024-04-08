@@ -24,7 +24,6 @@ const App = ({ Component }: AppProps): JSX.Element => (
   </Provider>
 );
 
-/* eslint-disable no-restricted-globals */
 App.onRedirectCallback = (appState: { targetUrl: string }): void => {
   history.state.push(
     appState && appState.targetUrl
@@ -32,6 +31,5 @@ App.onRedirectCallback = (appState: { targetUrl: string }): void => {
       : window.location.pathname,
   );
 };
-/* eslint-enable no-restricted-globals */
 
 export default App;
