@@ -1625,8 +1625,8 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
-  bundle-require@4.0.2:
-    resolution: {integrity: sha512-jwzPOChofl67PSTW2SGubV9HBQAhhR2i6nskiOThauo9dzwDUgOWQScFVaJkjEfYX+UXiD+LEx8EblQMc2wIag==}
+  bundle-require@4.0.3:
+    resolution: {integrity: sha512-2iscZ3fcthP2vka4Y7j277YJevwmsby/FpFDwjgw34Nl7dtCpt7zz/4TexmHMzY6KZEih7En9ImlbbgUNNQGtA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       esbuild: '>=0.17'
@@ -5700,7 +5700,7 @@ snapshots:
 
   buffer-from@1.1.2: {}
 
-  bundle-require@4.0.2(esbuild@0.17.19):
+  bundle-require@4.0.3(esbuild@0.17.19):
     dependencies:
       esbuild: 0.17.19
       load-tsconfig: 0.2.5
@@ -8189,7 +8189,7 @@ snapshots:
 
   tsup@6.7.0(postcss@8.4.38)(typescript@5.4.5):
     dependencies:
-      bundle-require: 4.0.2(esbuild@0.17.19)
+      bundle-require: 4.0.3(esbuild@0.17.19)
       cac: 6.7.14
       chokidar: 3.6.0
       debug: 4.3.4
