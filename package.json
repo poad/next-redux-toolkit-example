@@ -20,10 +20,10 @@
     "all": "pnpm lint && pnpm build && pnpm test"
   },
   "dependencies": {
-    "@emotion/cache": "^11.11.0",
-    "@emotion/react": "^11.11.4",
+    "@emotion/cache": "^11.12.0",
+    "@emotion/react": "^11.12.0",
     "@emotion/server": "^11.11.0",
-    "@emotion/styled": "^11.11.5",
+    "@emotion/styled": "^11.12.0",
     "@mui/icons-material": "^5.16.4",
     "@mui/material": "^5.16.4",
     "@mui/system": "^5.16.4",
