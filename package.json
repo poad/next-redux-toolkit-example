@@ -55,7 +55,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^10.0.1",
-    "postcss": "^8.4.39",
+    "postcss": "^8.4.40",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "rimraf": "^6.0.1",
