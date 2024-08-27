@@ -34,6 +34,7 @@ const MenuItem = ({ keyName, text, href, icon, external }: MenuItemProps) => {
               backgroundColor: theme.palette.primary.light,
             },
           }}
+          // eslint-disable-next-line @typescript-eslint/no-empty-function
           onClick={() => {}}
         >
           <ListItemIcon>{icon}</ListItemIcon>
@@ -53,6 +54,7 @@ const MenuItem = ({ keyName, text, href, icon, external }: MenuItemProps) => {
             backgroundColor: theme.palette.primary.light,
           },
         }}
+        // eslint-disable-next-line @typescript-eslint/no-empty-function
         onClick={() => {}}
       >
         <ListItemIcon>{icon}</ListItemIcon>
