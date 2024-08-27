@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { AppProps } from 'next/app';
+import { AppProps, } from 'next/app';
 import Head from 'next/head';
-import { CssBaseline, ThemeProvider } from '@mui/material';
-import { Provider } from 'react-redux';
+import { CssBaseline, ThemeProvider, } from '@mui/material';
+import { Provider, } from 'react-redux';
 import store from '../store';
 import theme from '../styles/theme';
 import '../styles/globals.css';
 
-const App = ({ Component }: AppProps): JSX.Element => (
+const App = ({ Component, }: AppProps,): JSX.Element => (
   <Provider store={store}>
     <ThemeProvider theme={theme}>
       {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
@@ -24,7 +24,7 @@ const App = ({ Component }: AppProps): JSX.Element => (
   </Provider>
 );
 
-App.onRedirectCallback = (appState: { targetUrl: string }): void => {
+App.onRedirectCallback = (appState: { targetUrl: string },): void => {
   history.state.push(
     appState && appState.targetUrl
       ? appState.targetUrl

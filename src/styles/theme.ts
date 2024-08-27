@@ -1,5 +1,5 @@
-import { createTheme } from '@mui/material';
-import { green } from '@mui/material/colors';
+import { createTheme, } from '@mui/material';
+import { green, } from '@mui/material/colors';
 
 // A theme with custom primary and secondary color.
 // It's optional.
@@ -22,6 +22,6 @@ const options = {
   drawerWidth: 240,
 };
 
-const theme = createTheme(options);
+const theme = createTheme(options,);
 export type Theme = typeof theme;
 export default theme;
