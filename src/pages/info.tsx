@@ -1,12 +1,12 @@
 import Box from '@mui/material/Box';
 import React from 'react';
-import { Counter, } from '../components/counter/Counter';
+import { Counter } from '../components/counter/Counter';
 import Layout from '../components/Layout';
 
 const Info = (): JSX.Element => {
   return (
     <Layout>
-      <Box component="main" sx={{ width: '100%', color: '#333', }}>
+      <Box component="main" sx={{ width: '100%', color: '#333' }}>
         <Box
           sx={{
             margin: '0',

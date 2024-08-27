@@ -1,19 +1,19 @@
 import React from 'react';
-import { Box, Link, Typography, } from '@mui/material';
-import { styled, } from '@mui/system';
+import { Box, Link, Typography } from '@mui/material';
+import { styled } from '@mui/system';
 
 import Layout from '../components/Layout';
 
-const StyledBox = styled(Box,)(() => ({
+const StyledBox = styled(Box)(() => ({
   maxWidth: '880px',
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'space-around',
   margin: '80px auto 40px',
   textDecoration: 'none',
-}),);
+}));
 
-const CardStyleLink = styled(Link,)(() => ({
+const CardStyleLink = styled(Link)(() => ({
   padding: '18px 18px 24px',
   width: '220px',
   textAlign: 'left',
@@ -34,12 +34,12 @@ const CardStyleLink = styled(Link,)(() => ({
     color: '#333',
     fontSize: '13px',
   },
-}),);
+}));
 
 const Home = (): JSX.Element => {
   return (
     <Layout>
-      <Box component="main" sx={{ width: '100%', color: '#333', }}>
+      <Box component="main" sx={{ width: '100%', color: '#333' }}>
         <Box
           sx={{
             margin: '0',
