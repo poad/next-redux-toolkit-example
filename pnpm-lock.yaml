@@ -60,6 +60,9 @@ importers:
       '@stylistic/eslint-plugin-js':
         specifier: ^2.7.1
         version: 2.7.1(eslint@9.9.1(jiti@1.21.6))
+      '@stylistic/eslint-plugin-jsx':
+        specifier: ^2.7.1
+        version: 2.7.1(eslint@9.9.1(jiti@1.21.6))
       '@stylistic/eslint-plugin-plus':
         specifier: ^2.7.1
         version: 2.7.1(eslint@9.9.1(jiti@1.21.6))
@@ -1217,6 +1220,12 @@ packages:
 
   '@stylistic/eslint-plugin-js@2.7.1':
     resolution: {integrity: sha512-4YgqaPhPV8nMAMWnRz+RB7S/CQh/ximISMj2QJ8HPveUzCqUBkeNV7iB4cggr4pkalcDCsIu0y4LhmrlS1yAgA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
+
+  '@stylistic/eslint-plugin-jsx@2.7.1':
+    resolution: {integrity: sha512-Y3rd8a5c4kay1UHY6wTMUK3KS8D5v2E2KZ/oZDlcxWYus1tKcRGAhr9DxkR2GryyC+LyH/JnZI8Br/QZu/wXNA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -5264,6 +5273,11 @@ snapshots:
       eslint: 9.9.1(jiti@1.21.6)
       eslint-visitor-keys: 4.0.0
       espree: 10.1.0
+
+  '@stylistic/eslint-plugin-jsx@2.7.1(eslint@9.9.1(jiti@1.21.6))':
+    dependencies:
+      '@types/eslint': 9.6.1
+      eslint: 9.9.1(jiti@1.21.6)
 
   '@stylistic/eslint-plugin-plus@2.7.1(eslint@9.9.1(jiti@1.21.6))':
     dependencies:
