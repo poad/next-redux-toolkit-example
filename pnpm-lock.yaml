@@ -5278,10 +5278,6 @@ snapshots:
     dependencies:
       '@types/eslint': 9.6.1
       eslint: 9.9.1(jiti@1.21.6)
-      eslint-visitor-keys: 4.0.0
-      espree: 10.1.0
-      estraverse: 5.3.0
-      picomatch: 4.0.2
 
   '@stylistic/eslint-plugin-plus@2.7.1(eslint@9.9.1(jiti@1.21.6))':
     dependencies:
