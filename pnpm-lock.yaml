@@ -1951,8 +1951,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.63:
-    resolution: {integrity: sha512-ddeXKuY9BHo/mw145axlyWjlJ1UBt4WK3AlvkT7W2AbqfRQoacVoRUCF6wL3uIx/8wT9oLKXzI+rFqHHscByaA==}
+  electron-to-chromium@1.5.64:
+    resolution: {integrity: sha512-IXEuxU+5ClW2IGEYFC2T7szbyVgehupCWQe5GNh+H065CD6U6IFN0s4KeAMFGNmQolRU4IV7zGBWSYMmZ8uuqQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2220,8 +2220,8 @@ packages:
   flatted@3.3.2:
     resolution: {integrity: sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==}
 
-  flow-parser@0.254.0:
-    resolution: {integrity: sha512-FhO64nGWlkrCxMWRDL1Wbok+ep4iSw2t6EtuyYOFZRzBh902iynZ/GMDU/3RSbiKTmALkcmCmKQLe0eOWdMA8Q==}
+  flow-parser@0.254.1:
+    resolution: {integrity: sha512-dyUrQD6ZyI4PVQppj8PP5kj6BVThK8FprAcPCnJNLIZM7zcAL6/xGS1EE1haWv2HcO/dHy7GSwOAO59uaffjYw==}
     engines: {node: '>=0.4.0'}
 
   for-each@0.3.3:
@@ -3207,15 +3207,15 @@ packages:
     resolution: {integrity: sha512-vqlC04+RQoFalODCbCumG2xIOvapzVMHwsyIGM/SIE8fRhFFsXeH8/QQ+s0T0kDAhKc4k30s73/0ydkHQz6HlQ==}
     engines: {node: '>= 0.4'}
 
-  regexpu-core@6.1.1:
-    resolution: {integrity: sha512-k67Nb9jvwJcJmVpw0jPttR1/zVfnKf8Km0IPatrU/zJ5XeG3+Slx0xLXs9HByJSzXzrlz5EDvN6yLNMDc2qdnw==}
+  regexpu-core@6.2.0:
+    resolution: {integrity: sha512-H66BPQMrv+V16t8xtmq+UC0CBpiTBA60V8ibS1QVReIp8T1z8hwFxqcGzm9K6lgsN7sB5edVH8a+ze6Fqm4weA==}
     engines: {node: '>=4'}
 
   regjsgen@0.8.0:
     resolution: {integrity: sha512-RvwtGe3d7LvWiDQXeQw8p5asZUmfU1G/l6WbUXeHta7Y2PEIvBTwH6E2EfmYUK8pxcxEdEmaomqyp0vZZ7C+3Q==}
 
-  regjsparser@0.11.2:
-    resolution: {integrity: sha512-3OGZZ4HoLJkkAZx/48mTXJNlmqTGOzc0o9OWQPuWpkOlXXPbyN6OafCcoXUnBqE2D3f/T5L+pWc1kdEmnfnRsA==}
+  regjsparser@0.12.0:
+    resolution: {integrity: sha512-cnE+y8bz4NhMjISKbgeVJtqNbtf5QpjZP+Bslo+UqkIt9QPnX9q095eiRRASJG1/tz6dlNr6Z5NsBiWYokp6EQ==}
     hasBin: true
 
   require-like@0.1.2:
@@ -3560,8 +3560,8 @@ packages:
     resolution: {integrity: sha512-3iMJ9q0ao7WE9tWcaYKIptkNBuOIcZCCT0d4MRvuuH88fEoEH62IuQe0OtraD3ebQEoTRk8XCBoknUNc1Y67pw==}
     engines: {node: '>= 0.4'}
 
-  typed-array-byte-offset@1.0.2:
-    resolution: {integrity: sha512-Ous0vodHa56FviZucS2E63zkgtgrACj7omjwd/8lTEMEPFFyjfixMZ1ZXenpgCFBBt4EC1J2XsyVS2gkG0eTFA==}
+  typed-array-byte-offset@1.0.3:
+    resolution: {integrity: sha512-GsvTyUHTriq6o/bHcTd0vM7OQ9JEdlvluu9YISaA7+KzDzPaIzEeDFNkTfhdE3MYcNhNi0vq/LlegYgIs5yPAw==}
     engines: {node: '>= 0.4'}
 
   typed-array-length@1.0.6:
@@ -3800,7 +3800,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.26.0
       '@babel/helper-annotate-as-pure': 7.25.9
-      regexpu-core: 6.1.1
+      regexpu-core: 6.2.0
       semver: 6.3.1
     optional: true
 
@@ -5496,7 +5496,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001683
-      electron-to-chromium: 1.5.63
+      electron-to-chromium: 1.5.64
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -5744,7 +5744,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.63: {}
+  electron-to-chromium@1.5.64: {}
 
   emoji-regex@8.0.0: {}
 
@@ -5809,7 +5809,7 @@ snapshots:
       string.prototype.trimstart: 1.0.8
       typed-array-buffer: 1.0.2
       typed-array-byte-length: 1.0.1
-      typed-array-byte-offset: 1.0.2
+      typed-array-byte-offset: 1.0.3
       typed-array-length: 1.0.6
       unbox-primitive: 1.0.2
       which-typed-array: 1.1.15
@@ -6192,7 +6192,7 @@ snapshots:
 
   flatted@3.3.2: {}
 
-  flow-parser@0.254.0: {}
+  flow-parser@0.254.1: {}
 
   for-each@0.3.3:
     dependencies:
@@ -6550,7 +6550,7 @@ snapshots:
       '@babel/preset-flow': 7.25.9(@babel/core@7.26.0)
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.0)
       '@babel/register': 7.25.9(@babel/core@7.26.0)
-      flow-parser: 0.254.0
+      flow-parser: 0.254.1
       graceful-fs: 4.2.11
       micromatch: 4.0.8
       neo-async: 2.6.2
@@ -7138,12 +7138,12 @@ snapshots:
       es-errors: 1.3.0
       set-function-name: 2.0.2
 
-  regexpu-core@6.1.1:
+  regexpu-core@6.2.0:
     dependencies:
       regenerate: 1.4.2
       regenerate-unicode-properties: 10.2.0
       regjsgen: 0.8.0
-      regjsparser: 0.11.2
+      regjsparser: 0.12.0
       unicode-match-property-ecmascript: 2.0.0
       unicode-match-property-value-ecmascript: 2.2.0
     optional: true
@@ -7151,7 +7151,7 @@ snapshots:
   regjsgen@0.8.0:
     optional: true
 
-  regjsparser@0.11.2:
+  regjsparser@0.12.0:
     dependencies:
       jsesc: 3.0.2
     optional: true
@@ -7580,7 +7580,7 @@ snapshots:
       has-proto: 1.0.3
       is-typed-array: 1.1.13
 
-  typed-array-byte-offset@1.0.2:
+  typed-array-byte-offset@1.0.3:
     dependencies:
       available-typed-arrays: 1.0.7
       call-bind: 1.0.7
@@ -7588,6 +7588,7 @@ snapshots:
       gopd: 1.0.1
       has-proto: 1.0.3
       is-typed-array: 1.1.13
+      reflect.getprototypeof: 1.0.6
 
   typed-array-length@1.0.6:
     dependencies:
