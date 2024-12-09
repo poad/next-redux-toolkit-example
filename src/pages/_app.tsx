@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { JSX } from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { CssBaseline, ThemeProvider } from '@mui/material';

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import { Box, Link, Typography } from '@mui/material';
 import { styled } from '@mui/system';
 
