@@ -1,5 +1,5 @@
 import Box from '@mui/material/Box';
-import React from 'react';
+import React, { JSX } from 'react';
 import { Counter } from '../components/counter/Counter';
 import Layout from '../components/Layout';
 
