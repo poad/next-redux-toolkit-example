@@ -2222,8 +2222,8 @@ packages:
   flatted@3.3.2:
     resolution: {integrity: sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==}
 
-  flow-parser@0.258.0:
-    resolution: {integrity: sha512-/f3ui3WaPTRUtqnWaGzf/f352hn4VhqGOiuSVkgaW6SbHNp5EwdDoh6BF3zB9A6kcWhCpg/0x0A3aXU+KXugAA==}
+  flow-parser@0.258.1:
+    resolution: {integrity: sha512-Y8CrO98EcXVCiYE4s5z0LTMbeYjKyd3MAEUJqxA7B8yGRlmdrG5UDqq4pVrUAfAu2tMFgpQESvBhBu9Xg1tpow==}
     engines: {node: '>=0.4.0'}
 
   for-each@0.3.3:
@@ -6232,7 +6232,7 @@ snapshots:
 
   flatted@3.3.2: {}
 
-  flow-parser@0.258.0: {}
+  flow-parser@0.258.1: {}
 
   for-each@0.3.3:
     dependencies:
@@ -6617,7 +6617,7 @@ snapshots:
       '@babel/preset-flow': 7.25.9(@babel/core@7.26.0)
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.0)
       '@babel/register': 7.25.9(@babel/core@7.26.0)
-      flow-parser: 0.258.0
+      flow-parser: 0.258.1
       graceful-fs: 4.2.11
       micromatch: 4.0.8
       neo-async: 2.6.2
