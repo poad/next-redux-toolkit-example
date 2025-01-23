@@ -2,6 +2,7 @@
   "name": "next-ts-template",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "test": "echo ''",
     "dev": "next dev",
@@ -12,7 +13,6 @@
     "lint-fix": "eslint --fix ./src/**/*{.ts,.tsx}",
     "clean": "rimraf build",
     "pretest": "pnpm build",
-    "postinstall": "typewind generate",
     "all": "pnpm lint && pnpm build && pnpm test"
   },
   "dependencies": {
@@ -41,8 +41,9 @@
     "@stylistic/eslint-plugin-jsx": "^2.13.0",
     "@stylistic/eslint-plugin-plus": "^2.13.0",
     "@stylistic/eslint-plugin-ts": "^2.13.0",
+    "@tailwindcss/postcss": "^4.0.0",
     "@types/node": "^22.10.9",
-    "@types/react": "^19.0.7",
+    "@types/react": "^19.0.8",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.18.0",
     "eslint-config-next": "^15.1.6",
@@ -50,21 +51,12 @@
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
-    "next-compose-plugins": "^2.2.1",
-    "next-transpile-modules": "^10.0.1",
     "pnpm": "^10.0.0",
     "postcss": "^8.5.1",
     "rimraf": "^6.0.1",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^4.0.0",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.21.0",
-    "typewind": "^0.2.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "braces": ">=3.0.3",
-      "micromatch": ">=4.0.8"
-    }
+    "typescript-eslint": "^8.21.0"
   },
   "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b"
 }
