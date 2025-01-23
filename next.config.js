@@ -4,7 +4,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer');
 const config = {
   output: 'export',
   reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
-  swcMinify: true,
   cleanDistDir: true,
   compiler: {
     emotion: true,
