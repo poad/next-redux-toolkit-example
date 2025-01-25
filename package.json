@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.18.0",
+    "@eslint/js": "^9.19.0",
     "@next/bundle-analyzer": "^15.1.6",
     "@next/codemod": "^15.1.6",
     "@next/eslint-plugin-next": "^15.1.6",
@@ -45,7 +45,7 @@
     "@types/node": "^22.10.10",
     "@types/react": "^19.0.8",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.18.0",
+    "eslint": "^9.19.0",
     "eslint-config-next": "^15.1.6",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-jsx-a11y": "^6.10.2",
