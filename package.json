@@ -24,7 +24,7 @@
     "@mui/material": "^6.4.8",
     "@mui/system": "^6.4.8",
     "@reduxjs/toolkit": "^2.6.1",
-    "next": "^15.2.3",
+    "next": "^15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0",
@@ -33,20 +33,20 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.23.0",
-    "@next/bundle-analyzer": "^15.2.3",
-    "@next/codemod": "^15.2.3",
-    "@next/eslint-plugin-next": "^15.2.3",
+    "@next/bundle-analyzer": "^15.2.4",
+    "@next/codemod": "^15.2.4",
+    "@next/eslint-plugin-next": "^15.2.4",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@stylistic/eslint-plugin-js": "^4.2.0",
     "@stylistic/eslint-plugin-jsx": "^4.2.0",
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
     "@tailwindcss/postcss": "^4.0.15",
-    "@types/node": "^22.13.12",
+    "@types/node": "^22.13.13",
     "@types/react": "^19.0.12",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.23.0",
-    "eslint-config-next": "^15.2.3",
+    "eslint-config-next": "^15.2.4",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.4",
@@ -56,7 +56,7 @@
     "rimraf": "^6.0.1",
     "tailwindcss": "^4.0.15",
     "typescript": "^5.8.2",
-    "typescript-eslint": "^8.27.0"
+    "typescript-eslint": "^8.28.0"
   },
   "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af"
 }
